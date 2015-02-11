@@ -1,11 +1,11 @@
 <div class="container">
   <p>Twitter</p>
-  <form action="/tweet" method="post">
-    <input type="text" name="tweets" placeholder="Tweet?">
-    <input type="submit" value="Tweet!">
+  <form id="twitter" action="/tweet" method="post">
+    <input class="tweets" type="text" name="tweet" placeholder="Tweet?">
+    <input type="submit" value="Tweet!" class="search">
 
 </div>
 
-<div id="loading"></div>
+<div id="load"> <center><img src="/images/load.gif" id="loading" style="display:none" /> </center></div>
 
 <div id="result"></div>
